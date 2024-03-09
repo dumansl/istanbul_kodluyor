@@ -3,8 +3,8 @@ import 'course.dart';
 import 'student.dart';
 
 void main(List<String> args) {
-  List<Course> courses = [
-    Course(
+  List<CourseCard> courses = [
+    CourseCard(
       courseImage:
           "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0",
       courseName: "Senior Yazılım Geliştirici Yetiştirme Kampı (.NET)",
@@ -15,7 +15,7 @@ void main(List<String> args) {
       educatorName: "Engin",
       educatorSurname: "Demirog",
     ),
-    Course(
+    CourseCard(
       courseImage:
           "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0",
       courseName:

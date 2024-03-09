@@ -10,7 +10,7 @@ class Student {
   String email;
   String name;
   String lastName;
-  List<Course>? course;
+  List<CourseCard>? course;
 
   void displayInfo() {
     print("$email\n$name $lastName\nKurslar: ");

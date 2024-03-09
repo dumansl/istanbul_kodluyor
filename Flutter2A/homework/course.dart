@@ -1,8 +1,8 @@
 import 'category.dart';
 import 'educator.dart';
 
-class Course extends Educator {
-  Course({
+class CourseCard extends Educator {
+  CourseCard({
     required this.courseImage,
     required this.courseName,
     required this.courseDescription,
