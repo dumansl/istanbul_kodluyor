@@ -1,5 +1,9 @@
+import 'cacheService.dart';
 import 'calculator.dart';
 import 'customer.dart';
+import 'customerService.dart';
+import 'customerService2.dart';
+import 'customerServiceInterface.dart';
 import 'customerType.dart';
 import 'environment.dart';
 import 'product.dart';
@@ -31,6 +35,16 @@ void main() {
 
   print(Environment.API_URL);
   print(Calculator.calculateTax(50));
+
+  CustomerServiceInterface customerService = new CustomerService2();
+  customerService.add(customer);
+  customerService.update(customer);
+
+  CacheService<double> cacheService = new CacheService();
+
+  CacheService<String> cacheService2 = new CacheService();
+
+  CacheService<Customer> cacheService3 = new CacheService();
 }
 
 // SDK => Software Dev. Kit
